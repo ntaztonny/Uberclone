@@ -1,14 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const MapScreen = () => {
+const EatsScreen = () => {
   return (
     <View>
-      <Text>This is the MapsScreen</Text>
+      <Text>This is the EatsScreen</Text>
     </View>
   );
 };
 
-export default MapScreen;
+export default EatsScreen;
 
 const styles = StyleSheet.create({});
