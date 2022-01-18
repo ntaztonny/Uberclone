@@ -32,4 +32,5 @@ export const selectDestination = (state) => state.nav.Destination;
 export const selectTravelTimeInformation = (state) =>
   state.nav.travelTimeInformation;
 
+//export default navReducer = navSlice.reducer;
 export default navSlice.reducer;

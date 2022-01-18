@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet, Text, SafeAreaView, Image, View } from "react-native";
 import tw from "tailwind-react-native-classnames";
 import NavOptions from "../Components/NavOptions";
+import MapScreen from "./MapScreen";
 
 function HomeScreen() {
   return (
@@ -15,6 +16,7 @@ function HomeScreen() {
         />
         <NavOptions />
       </View>
+      <MapScreen />
     </SafeAreaView>
   );
 }
