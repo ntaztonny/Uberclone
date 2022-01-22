@@ -20,17 +20,17 @@ export default function App() {
             <Stack.Screen
               name="HomeScreen"
               component={HomeScreen}
-              options={{ headershown: false }}
+              options={{ headerShown: false }}
             />
             <Stack.Screen
               name="MapScreen"
               component={MapScreen}
-              options={{ headershown: false }}
+              options={{ headerShown: false }}
             />
             <Stack.Screen
               name="EatsScreen"
               component={EatsScreen}
-              options={{ headershown: false }}
+              options={{ headerShown: false }}
             />
           </Stack.Navigator>
         </SafeAreaProvider>
