@@ -18,10 +18,16 @@ const NavigateCard = () => {
       <View style={tw`border-t border-gray-200 flex-shrink`}>
         <View>
           <GooglePlacesAutocomplete
-            styles={toInboxStyles}
             placeholder="where to?"
-            fetchDetails={true}
-            returnKeyType={"search"}
+            //styles={toInboxStyles}
+            styles={{
+              container: {
+                flex: 0,
+              },
+              textInput: {
+                fontSize: 18,
+              },
+            }}
             onPress={(data, details = null) => {
               dispatch(
                 setDestination({
@@ -31,6 +37,8 @@ const NavigateCard = () => {
               );
               navigation.navigate("RideOptionCard");
             }}
+            fetchDetails={true}
+            returnKeyType={"search"}
             enablePoweredByContainer={false}
             query={{ key: GOOGLE_MAPS_APIKEY, language: "en" }}
             nearbyPlacesAPI="GooglePlacesSearch"

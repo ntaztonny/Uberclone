@@ -21,9 +21,9 @@ const Maps = () => {
   }, [origin, destination]);
   return (
     <MapView
-      ref={mapRef}
       style={tw`flex-1`}
       mapType="mutedStandard"
+      ref={mapRef}
       initialRegion={{
         latitude: origin.location.lat,
         longitude: origin.location.lng,
