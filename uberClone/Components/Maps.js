@@ -57,7 +57,7 @@ const Maps = () => {
             latitude: destination.location.lat,
             longitude: destination.location.lng,
           }}
-          title="origin"
+          title="destination"
           description={destination.description}
           identifier="destination"
         />

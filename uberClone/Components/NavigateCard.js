@@ -21,7 +21,7 @@ const NavigateCard = () => {
         <View>
           <GooglePlacesAutocomplete
             placeholder="where to?"
-            //styles={toInboxStyles}
+            styles={toInboxStyles}
             styles={{
               container: {
                 flex: 0,
