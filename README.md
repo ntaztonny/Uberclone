@@ -16,7 +16,7 @@ This is a mobile application built with Expo for ReactNative. It can be deployed
 
 #### Requirements
 
-See the package.json for all the npm packages [here](github.com/ntaztonny/Uberclone/blob/master/uberClone/package.json){:target="_blank"}
+See the package.json for all the npm packages [here](uberClone/package.json)
 
 ### Cloning and usage of the code:
 
