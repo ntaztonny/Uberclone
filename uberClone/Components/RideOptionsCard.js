@@ -35,7 +35,6 @@ const RideOptionsCard = () => {
   const navigation = useNavigation();
   const [selected, setSelected] = useState(null);
   const travelTimeInformation = useSelector(selectTravelTimeInformation);
-  console.log("travel info === ", travelTimeInformation);
 
   return (
     <SafeAreaView style={tw`bg-white flex-grow`}>
