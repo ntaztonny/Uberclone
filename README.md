@@ -5,11 +5,13 @@ This is a Uber clone built with Expo-ReactNative, Redux, and tailwind CSS. It us
 This is a mobile application built with Expo for ReactNative. It can be deployed to iOS, ipadOS, and android. The main objective was to clone the Uber's functionality with integration of PlacesAPI, DirectionsAPI, and also DistanceMatrix API.
 
 ### Functionality
+<div style="display: flex;">
 <img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen1_home.PNG" width ="200" height="400"/>
 <img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen2_setOrigin.PNG" width ="200" height="400"/>
 <img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen3_Destination.PNG" width ="200" height="400"/>
 <img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen4_Directions.PNG" width ="200" height="400"/>
 <img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen5_SelectRide.PNG" width ="200" height="400"/>
+</div>
 ![Home Screen](uberClone/Images/Screen1_home.PNG)
 ![Set start location](uberClone/Images/Screen2_setOrigin.PNG)
 ![Set destination](uberClone/Images/Screen3_Destination.PNG)
