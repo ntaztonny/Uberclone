@@ -33,7 +33,6 @@ const Maps = () => {
       )
         .then((res) => res.json())
         .then((data) => {
-          console.log("data", data);
           dispatch(setTravelTimeInformation(data.rows[0].elements[0]));
         });
     };
