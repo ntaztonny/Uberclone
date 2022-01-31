@@ -27,13 +27,17 @@ const Maps = () => {
 
   useEffect(() => {
     if (!origin || !destination || GOOGLE_MAPS_APIKEY) return;
-    fetch(
-      `https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=${origin.description}&destinations=${destination.description}&key=${GOOGLE_MAPS_APIKEY}`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        dispatch(setTravelTimeInformation(data.rows[0].elements[0]));
-      });
+    const getTravelTime = async () => {
+      fetch(
+        `https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=${origin.description}&destinations=${destination.description}&key=${GOOGLE_MAPS_APIKEY}`
+      )
+        .then((res) => res.json())
+        .then((data) => {
+          console.log("data", data);
+          dispatch(setTravelTimeInformation(data.rows[0].elements[0]));
+        });
+    };
+    getTravelTime();
   }, [origin, destination, GOOGLE_MAPS_APIKEY]);
   return (
     <MapView

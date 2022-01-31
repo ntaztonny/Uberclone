@@ -10,13 +10,13 @@ const Navfavourites = () => {
       id: "123",
       icon: "home",
       location: "Home",
-      destination: "Code Street, London, UK",
+      destination: "Ivry sur seine, France",
     },
     {
       id: "456",
       icon: "briefcase",
       location: "Work",
-      destination: "London Eye, London, UK",
+      destination: "Paris, France",
     },
   ];
   return (
