@@ -6,6 +6,10 @@ This is a mobile application built with Expo for ReactNative. It can be deployed
 
 ### Functionality
 <img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen1_home.PNG" width ="200" height="400"/>
+<img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen2_setOrigin.PNG" width ="200" height="400"/>
+<img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen3_Destination.PNG" width ="200" height="400"/>
+<img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen4_Directions.PNG" width ="200" height="400"/>
+<img src ="https://github.com/ntaztonny/Uberclone/blob/master/uberClone/Images/Screen5_SelectRide.PNG" width ="200" height="400"/>
 ![Home Screen](uberClone/Images/Screen1_home.PNG)
 ![Set start location](uberClone/Images/Screen2_setOrigin.PNG)
 ![Set destination](uberClone/Images/Screen3_Destination.PNG)
